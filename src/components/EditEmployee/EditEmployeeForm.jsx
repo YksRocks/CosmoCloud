@@ -69,6 +69,7 @@ function EditEmployeeForm({ employeeData = {}, onClose }) {
       if (response.data.message === "Record updated.") {
         alert("Employee Updated");
         onClose();
+        window.location.reload();
       } else {
         alert(`Error: ${response.data.message}`);
       }
