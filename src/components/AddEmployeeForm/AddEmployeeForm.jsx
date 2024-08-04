@@ -78,7 +78,7 @@ function AddEmployeeForm({ onClose }) {
   return (
     <form
       onSubmit={handleSubmit}
-      className="bg-[#0e0e0e] shadow-2xl rounded-md p-6 scroll  top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[85%] md:w-[70%] flex flex-col card h-[70%] md:h-fit overflow-y-scroll md:overflow-auto fixed"
+      className="bg-[#0e0e0e] shadow-2xl rounded-md p-6 scroll  top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[85%] md:w-[70%] flex flex-col card h-[70%] md:h-fit overflow-y-scroll md:overflow-auto fixed z-30"
     >
       <div className="w-full flex flex-row justify-between items-center mb-4">
         <h2 className="text-2xl font-bold text-white/90 mb-4">Edit Employee</h2>
