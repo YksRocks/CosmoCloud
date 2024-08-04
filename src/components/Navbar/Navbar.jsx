@@ -19,7 +19,7 @@ function Navbar() {
         </Link>
         <button
           onClick={() => setIsAdd(true)}
-          className="px-2  md:px-5 py-2 w-[50%]"
+          className="px-2  md:px-5 py-2 w-[50%] md:w-fit"
         >
           Add Employee
         </button>
