@@ -56,8 +56,8 @@ function AddEmployeeForm({ onClose }) {
     try {
       const response = await axios.post(`${employee}`, formData, {
         headers: {
-          environmentId: "66ad2d391042893da0a0829e",
-          projectId: "66ad2d391042893da0a0829d",
+          environmentId: "66afae4d3e50e013f0d277ad",
+          projectId: "66afae4d3e50e013f0d277ac",
           "Content-Type": "application/json",
         },
       });

@@ -21,8 +21,8 @@ function EmployeeList() {
         const response = await axios.get(employee, {
           params: { limit: 9, offset: (page - 1) * 9 },
           headers: {
-            environmentId: "66ad2d391042893da0a0829e",
-            projectId: "66ad2d391042893da0a0829d",
+            environmentId: "66afae4d3e50e013f0d277ad",
+            projectId: "66afae4d3e50e013f0d277ac",
           },
         });
         if (response.data.data.length < 9) {
