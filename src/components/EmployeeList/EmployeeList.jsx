@@ -74,12 +74,12 @@ function EmployeeList() {
           {employees?.map((emp, index) => (
             <div
               key={index}
-              className="w-[40%] md:w-[20%] px-2 md:px-8 py-4 flex flex-col items-center justify-center isolate aspect-video  rounded-xl card gap-3"
+              className="w-[40%] md:w-[20%] h-[250px] md:h-fit px-2 md:px-8 py-4 flex flex-col items-center justify-center isolate aspect-video  rounded-xl card gap-3"
             >
               <h2 className="text-white/90 font-extrabold text-2xl">
                 #{index + 1}
               </h2>
-              <p className="text-white/80 text-lg">
+              <p className="text-white/80 text-lg text-center">
                 {emp.emp_name.toUpperCase()}
               </p>
               <Link
@@ -94,7 +94,7 @@ function EmployeeList() {
                   onClick={() => setIsEditing(emp)}
                   className=" bg-blue-600 rounded-lg p-2 flex justify-center items-center"
                 >
-                  <MdEdit className="w-7 h-7 text-white/90" />
+                  <MdEdit className="w-5 h-5 md:w-7 md:h-7 text-white/90" />
                 </button>
               </div>
             </div>

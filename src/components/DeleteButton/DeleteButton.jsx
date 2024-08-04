@@ -38,7 +38,7 @@ function DeleteButton({ id, onDelete }) {
       }}
       className=" bg-red-600 rounded-lg p-2 flex justify-center items-center"
     >
-      <MdDelete className="w-7 h-7 text-white/90" />
+      <MdDelete className="w-5 h-5 md:w-7 md:h-7 text-white/90" />
       {loading && <span className="text-white/90">Deleting...</span>}
     </button>
   );
